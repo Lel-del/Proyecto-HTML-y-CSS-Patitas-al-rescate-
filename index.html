@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patitas al Rescate - Refugio Animal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <img class="nav-icon" src="media/img/icono.jpg" alt="Perrito rescatado en estilo pixel art">
+        <a class="logo" href="#inicio">🐾 Patitas al Rescate</a>
+        <div class="nav-links">
+            <a href="#inicio">[ Inicio ]</a>
+            <a href="#misiones">[ Nuestra Misión ]</a>
+            <a href="#perritos">[ Huellitas ]</a>
+            <a class="btn-retro" href="adopciones.html">[ ¡ADOPTAR AHORA! ]</a>
+        </div>
+
+        <button class="btn-musica" onclick="var m=document.getElementById('ost'); if(m.paused){m.play(); this.textContent='♫ ON';}else{m.pause(); this.textContent='♫ OFF';}">♫ OFF</button>
+        <audio id="ost" src="assets/TerrariaOverworld.mp3" loop></audio>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">* ¡Un nuevo amigo te espera!</p>
+            <h1>Refugio Patitas al Rescate</h1>
+            <p class="dialogo-rpg">
+                * Explora el refugio. Muchos perritos rescatados buscan un hogar seguro... <br>
+                * Ver mover sus colitas te llena de ESPERANZA y ALEGRÍA.
+            </p>
+            <a class="button" href="#misiones">EXPLORAR REFUGIO</a>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="misiones" class="section">
+            <h2>Nuestra Misión</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Rescate</h3>
+                    <p>Buscamos perritos en situaciones vulnerables para darles una segunda oportunidad en un entorno seguro.</p>
+                </article>
+                <article class="card">
+                    <h3>Rehabilitación</h3>
+                    <p>Atención médica, alimento de calidad y mucho amor para sanar tanto sus heridas físicas como sus corazones.</p>
+                </article>
+                <article class="card">
+                    <h3>Adopción</h3>
+                    <p>Conectamos a cada peludito con la familia ideal, asegurando un futuro lleno de mimos y juegos.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="perritos" class="profile-row">
+            <div class="avatar-container">
+                <img src="media/img/Toby.jpeg" alt="Perrito rescatado en estilo pixel art">
+            </div>  
+            <div class="perfil-info">
+                <h2> ¡Perrito del Mes: Toby!</h2>
+                <p>
+                    Toby es un cachorro lleno de energía, rescatado cerca de un cementerio. 
+                    Le encanta correr tras las ramas, observar a otros animales y es extremadamente apegado. 
+                    ¡Está listo para mudarse a tu casa y convivir todas las noches contigo!
+                </p>
+            </div>
+        </section>
+
+        <section class="tags">
+            <span>Amor</span>
+            <span>Adopción</span>
+            <span>Cuidado Animal</span>
+            <span>Refugio</span>
+            <span>Perritos</span>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>— Patitas al Rescate © 2026 — Construyendo hogares felices bloque por bloque.</p>
+    </footer>
+
+</body>
+</html>
