@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Patitas al Rescate</title>
+    <link rel="stylesheet" href="css/stylecontact.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <img class="nav-icon" src="media/img/icono.jpg" alt="Perrito rescatado en estilo pixel art">
+        <a class="logo" href="index.html#inicio">🐾 Patitas al Rescate</a>
+        <div class="nav-links">
+            <a href="index.html#inicio">[ Inicio ]</a>
+            <a href="index.html#misiones">[ Nuestra Misión ]</a>
+            <a href="index.html#perritos">[ Huellitas ]</a>
+            <a class="btn-retro" href="adopciones.html">[ ¡ADOPTAR AHORA! ]</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        
+        <section class="section">
+            <h2>Formulario de Contacto</h2>
+            <p class="dialogo-rpg">* Los campos con <span class="req">*</span> son obligatorios para continuar tu aventura.</p>
+            
+            <form class="contacto-form" action="#" method="POST">
+                
+                <div class="form-group">
+                    <label for="nombre">Nombre <span class="req">*</span></label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apellidos">Apellidos <span class="req">*</span></label>
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="ciudad">Ciudad <span class="req">*</span></label>
+                    <input type="text" id="ciudad" name="ciudad" placeholder="Tu ciudad actual" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico <span class="req">*</span></label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono (Opcional)</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Número de contacto">
+                </div>
+
+                <div class="form-group">
+                    <label for="consulta">Tipo de Consulta <span class="req">*</span></label>
+                    <select id="consulta" name="consulta" required>
+                        <option value="" disabled selected hidden>Selecciona una opción</option>
+                        <option value="adopcion">Adopción</option>
+                        <option value="donacion">Donación</option>
+                        <option value="voluntariado">Voluntariado</option>
+                        <option value="informacion">Información general</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="mensaje">Mensaje <span class="req">*</span></label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Simulación Estado Error (Ejemplo maquetado)</label>
+                    <input type="text" class="error" value="Formato incorrecto o campo vacío">
+                </div>
+
+                <div class="form-group">
+                    <label>Simulación Estado Éxito (Ejemplo maquetado)</label>
+                    <input type="text" class="success" value="¡Datos válidos!">
+                </div>
+
+                <div class="form-group full-width text-center">
+                    <button type="submit" class="button">ENVIAR MENSAJE</button>
+                </div>
+
+            </form>
+        </section>
+
+
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+                <section class="section info-contacto-section">
+            <h2>Información Directa</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Contacto Directo</h3>
+                    <p>✉ contacto@patitasalrescate.org</p>
+                    <p>📞 +57 300 123 4567</p>
+                </article>
+                <article class="card">
+                    <h3>Redes Sociales</h3>
+                    <p><a href="https://github.com" target="_blank" class="link-rpg">[ GitHub ]</a></p>
+                    <p><a href="#" target="_blank" class="link-rpg">[ Instagram ]</a></p>
+                    <p><a href="#" target="_blank" class="link-rpg">[ Twitter ]</a></p>
+        <p>— Patitas al Rescate © 2026 — Construyendo hogares felices bloque por bloque.</p>
+    </footer>
+
+</body>
+</html>
