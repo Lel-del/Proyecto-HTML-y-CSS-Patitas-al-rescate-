@@ -71,23 +71,6 @@ body {
     text-shadow: 1px 1px 0px #000;
 }
 
-.btn-musica {
-    display: inline-block;
-    background-color: #142414;
-    color: #4ade80;
-    border: 3px solid #4a3319;
-    padding: 5px 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 16px;
-}
-
-.btn-musica:hover {
-    background-color: #4a3319;
-    color: #ffffff;
-}
-
 .hero-carrusel-container {
     position: relative;
     min-height: 65vh;
